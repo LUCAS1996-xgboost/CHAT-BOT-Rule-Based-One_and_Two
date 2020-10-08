@@ -1,5 +1,5 @@
 
-# coding: utf-8
+
 
 # In[2]:
 
@@ -119,12 +119,12 @@ while(flag==True):
         print("ROBO: Bye! take care..")
 
 
-# In[ ]:
 
 
 
 
-# In[ ]:
+
+
 
 
 
