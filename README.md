@@ -35,8 +35,16 @@ python -m ipykernel install --user --name nlp22 --display -name nlp222
 ```
 Here the `--name nlp22` is the env which we want to write into, and `--display -name nlp22 ` is the
 name that will be shown in the Jupyter notebook.
-## Where users can get help with your project
-
+### 6. import NLTK
+Usually we have different methods to install NLTK, in Jupyter or in Anaconda
+In Jupyter
+```
+pip install nltk
+```
+In Anaconda
+```
+conda install -c anaconda nltk  # -c means the channel
+```
 
 
 ## Who maintains and contributes to the project
