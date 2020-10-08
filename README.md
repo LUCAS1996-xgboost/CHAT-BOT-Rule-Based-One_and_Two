@@ -11,7 +11,7 @@ the usage of NLTK, building different environments in Anaconda and also setting 
 ## How users can get started with the project
 These two chat bots in this project are all based on NLTK, however, before importing the NLTK, one problem must be solved, That is 
 build a new environment in Anaconda and then match it with the relevant Kernel in the Jupyter notebook.
-Here we usually do all these commands in the terminal such as the 'Anaconda Prompt'
+Here we usually do all these commands in the terminal such as the `Anaconda Prompt`
 
 
 ## Where users can get help with your project
