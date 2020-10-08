@@ -15,21 +15,21 @@ Here we usually do all these commands in the terminal such as the `Anaconda Prom
 
 Here I'm going to show the process of matching envs&kernels and installing NLTK，
 
-1）Open the Anaconda Prompt 
-2) Build a new environment in Anaconda
+### 1. Open the Anaconda Prompt 
+### 2. Build a new environment in Anaconda
 ```
 conda create -n nlp222 python=3.5  # here I use "nlp222" as an example of the name
 ```
-3) install ipykernel
+### 3. install ipykernel
 ```
 conda install ipykernel # ipykernel is the key to make sure various linraries can update at the same time.
 ```
-4) install ipykernel in Anaconda new env and then activate it
+### 4. install ipykernel in Anaconda new env and then activate it
 ```
 conda install -m nlp22 ipykernel
 activate nlp22
 ```
-5) put the activates kernel into jupyter notebook
+### 5. put the activates kernel into jupyter notebook
 ```
 python -m ipykernel install --user --name nlp22 --display -name nlp222
 ```
