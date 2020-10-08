@@ -13,6 +13,13 @@ These two chat bots in this project are all based on NLTK, however, before impor
 build a new environment in Anaconda and then match it with the relevant Kernel in the Jupyter notebook.
 Here we usually do all these commands in the terminal such as the `Anaconda Prompt`
 
+Here I'm going to show the process of matching envs&kernels and installing NLTK，
+
+1）Open the Anaconda Prompt 
+2) Build a new environment in Anaconda
+```
+conda create -n nlp222 python=3.5 #here I use "nlp222" as an example of the name
+```
 
 ## Where users can get help with your project
 
