@@ -37,14 +37,15 @@ Here the `--name nlp22` is the env which we want to write into, and `--display -
 name that will be shown in the Jupyter notebook.
 ### 6. import NLTK
 Usually we have different methods to install NLTK, in Jupyter or in Anaconda
-In Jupyter
+#### In Jupyter
 ```
 pip install nltk
 ```
-In Anaconda
+#### In Anaconda
 ```
 conda install -c anaconda nltk  # -c means the channel
 ```
 
 
 ## Who maintains and contributes to the project
+My mentor of this project, Peng Liu. 
