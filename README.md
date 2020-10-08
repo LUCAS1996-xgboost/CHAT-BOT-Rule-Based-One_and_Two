@@ -18,9 +18,23 @@ Here I'm going to show the process of matching envs&kernels and installing NLTKï
 1ï¼‰Open the Anaconda Prompt 
 2) Build a new environment in Anaconda
 ```
-conda create -n nlp222 python=3.5 #here I use "nlp222" as an example of the name
+conda create -n nlp222 python=3.5  # here I use "nlp222" as an example of the name
 ```
-
+3) install ipykernel
+```
+conda install ipykernel # ipykernel is the key to make sure various linraries can update at the same time.
+```
+4) install ipykernel in Anaconda new env and then activate it
+```
+conda install -m nlp22 ipykernel
+activate nlp22
+```
+5) put the activates kernel into jupyter notebook
+```
+python -m ipykernel install --user --name nlp22 --display -name nlp222
+```
+Here the `--name nlp22` is the env which we want to write into, and `--display -name nlp22 ` is the
+name that will be shown in the Jupyter notebook.
 ## Where users can get help with your project
 
 
